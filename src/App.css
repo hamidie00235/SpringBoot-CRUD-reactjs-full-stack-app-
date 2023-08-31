@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.544);
+  text-align: center;
+  color: white;
+
+}
