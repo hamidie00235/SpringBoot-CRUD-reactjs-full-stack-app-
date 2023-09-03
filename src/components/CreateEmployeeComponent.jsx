@@ -36,7 +36,7 @@ class CreateEmployeeComponent extends Component {
         };
         console.log('employee => ' + JSON.stringify(employee));
 
-        EmployeeService.createEmployee(employee).then((res) => {
+        EmployeeService.createEmployee(employee).then(res => {
             this.props.history.push('/employees');
         });
     };
